@@ -20,5 +20,8 @@
   "scripts": {
     "start": "browser-sync start --server --no-ui --files \"js/**/*.js\"",
     "lint": "eslint js/"
+  },
+  "volta": {
+    "node": "16.20.2"
   }
 }
