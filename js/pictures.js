@@ -2,7 +2,7 @@ import {openBigPicture} from './big-pictures.js';
 import {getData} from './api.js';
 import {unitFilter} from './filter.js';
 
-const GET_URL = 'https://28.javascript.pages.academy/kekstagram/data';
+const GET_URL = 'https://28.javascript.htmlacademy.pro/kekstagram/data';
 const ALERT_SHOW_TIME = 5000;
 const ALERT_ERROR = 'Произошла ошибка загрузки';
 const templatePicture = document.querySelector('#picture').content.querySelector('.picture');

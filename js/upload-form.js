@@ -6,7 +6,7 @@ import {sendData} from './api.js';
 import {renderSuccessMessage, renderFailMessage} from './alert-messages.js';
 import {uploadUserFile} from './user-photo.js';
 
-const SEND_URL = 'https://28.javascript.pages.academy/kekstagram';
+const SEND_URL = 'https://28.javascript.htmlacademy.pro/kekstagram';
 const imageUploadForm = document.querySelector('.img-upload__form');
 const imageUpload = document.querySelector('.img-upload__overlay');
 const uploadFile = document.querySelector('#upload-file');
